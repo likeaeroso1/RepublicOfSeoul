@@ -1,0 +1,272 @@
+@font-face {
+    font-family: 'BMDOHYEON';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ChosunCentennial';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/ChosunCentennial.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color:rgb(225, 223, 210);
+}
+*{
+    margin: 0px;
+    color: black;
+    font-family: 'BMDOHYEON';
+    font-size: 15px;
+}
+
+h1{
+    font-size: 18px;
+    text-align: center;
+    line-height: 100px;
+    letter-spacing: 0.1em;
+    font-weight: 100;
+}
+
+h2{
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 23px;
+    text-align: justify;
+}
+h3{
+    font-size: 35px;
+    padding-top: 25px;
+    font-family: 'ChosunCentennial';
+}
+h4{
+    font-size: 28px;
+}
+h5{
+    padding: 7px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 25px;
+}
+
+#gifs-rows img {
+    cursor: pointer;
+    }
+    #gifs-rows .gif-file {
+    display:none;
+    }
+
+#container{
+    width: 1024px;
+    margin: 0px auto;
+    color:rgb(225, 223, 210);
+}
+
+#header{
+    display: flex;
+    width: 1024px;
+    height: 270px;
+}
+#mainTitle{
+    font-size: 80px;
+    padding-top: 140px;
+    margin: 0px auto;
+    letter-spacing: 0.25em;
+    text-shadow: 5px 5px 10px rgb(78, 78, 78);
+}
+#sidetext{
+    width: 220px;
+    height: 70px;
+    /*background-color: brown;*/
+}
+
+
+#main{
+    width: 1024px;
+    height: 1920px;
+}
+
+#leftContents{
+    width: 220px;
+    height: 1385px;
+    /*background-color: rgb(15, 67, 136);*/
+    float: left;
+}
+
+#boxA{
+    width: 100%;
+    height: 640px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*background-color: yellow;*/
+}
+#boxB{
+    width: 100%;
+    height: 370px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /*background-color: rgb(108, 202, 171);*/
+}
+#boxC{
+    width: 100%;
+    height: 260px;
+    margin-top: 32px;
+    /*background-color: rgb(38, 20, 85);*/
+}
+
+#mainImage{
+    display: flex;
+    width: 804px;
+    height: 935px;
+    /*background-color: cornflowerblue;*/
+}
+#mable{
+    width: 560px;
+    height: 912px;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 20px;
+}
+
+#rightContents{
+    width: 220px;
+    height: 900px;
+    /*background-color: blue;*/
+    float: right;
+}
+#boxD{
+    width: 100%;
+    height: 265px;
+    margin-bottom: 20px;
+    /*background-color: rgb(136, 106, 211);*/
+}
+#boxE{
+    width: 100%;
+    height: 580px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*background-color: rgb(199, 16, 144);*/
+}
+
+
+#interView{
+    width: 100%;
+    height: 455px;
+    /*background-color: gold;*/
+}
+
+#subTitle{
+    width: 790px;
+    height: 80px;
+    float: right;
+    /*background-color: rgb(197, 255, 202);*/
+}
+
+#boxF{
+    position: relative;
+    float: right;
+    width: 790px;
+    height: 376px;
+}
+.imtext{
+    position:absolute;
+    top:0%;
+    left: 0%;
+    z-index: 1;
+}
+.imBoxL1{
+    position:absolute;
+    width: 270px;
+    height: 26%;
+    margin: 20px;
+    top:0%;
+    left: 0%;
+    z-index: 1;
+}
+.imBoxL2{
+    position:absolute;
+    float: left;
+    width: 130px;
+    height: 60%;
+    margin: 20px;
+    top:29%;
+    left: 0%;
+    z-index: 1;
+    word-break:break-all;
+}
+.imBoxL3{
+    position:absolute;
+    float: left;
+    width: 130px;
+    height: 60%;
+    margin: 20px;
+    top:29%;
+    left: 18%;
+    z-index: 1;
+    word-break:break-all;
+}
+.imBoxR1{
+    position:absolute;
+    width: 485px;
+    height: 100%;
+    top: 5%;
+    left: 38.5%;
+    z-index: 1;
+}
+.imBoxR2{
+    position:absolute;
+    width: 440px;
+    height: 72%;
+    margin: 10px;
+    top:20%;
+    left: 39.5%;
+    z-index: 1;
+}
+.text1{
+    text-align: justify;
+}
+
+
+#underContents{
+    display: flex;
+    height: 500px;
+    /*background-color: rgb(132, 255, 95);*/
+    clear: left;
+}
+#boxG{
+    width: 790px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*background-color: rgb(199, 16, 144);*/
+}
+#boxH{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    /*background-color: rgb(173, 122, 80);*/
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    /*background-color: crimson;*/
+}
+#footerText{
+    padding: 5px;
+    float: right;
+}
+
+
+.hov-anim-box .animated {
+    display: none
+}
+.hov-anim-box:hover .animated {
+    display: inline
+}
+.hov-anim-box:hover .static {
+    display: none
+}
