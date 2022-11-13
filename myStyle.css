@@ -80,7 +80,6 @@ h5{
 #sidetext{
     width: 220px;
     height: 70px;
-    /*background-color: brown;*/
 }
 
 
@@ -92,7 +91,6 @@ h5{
 #leftContents{
     width: 220px;
     height: 1385px;
-    /*background-color: rgb(15, 67, 136);*/
     float: left;
 }
 
@@ -101,7 +99,6 @@ h5{
     height: 640px;
     margin-top: 20px;
     margin-bottom: 20px;
-    /*background-color: yellow;*/
 }
 #boxB{
     width: 100%;
@@ -121,7 +118,6 @@ h5{
     display: flex;
     width: 804px;
     height: 935px;
-    /*background-color: cornflowerblue;*/
 }
 #mable{
     width: 560px;
@@ -134,28 +130,24 @@ h5{
 #rightContents{
     width: 220px;
     height: 900px;
-    /*background-color: blue;*/
     float: right;
 }
 #boxD{
     width: 100%;
     height: 265px;
     margin-bottom: 20px;
-    /*background-color: rgb(136, 106, 211);*/
 }
 #boxE{
     width: 100%;
     height: 580px;
     margin-top: 20px;
     margin-bottom: 20px;
-    /*background-color: rgb(199, 16, 144);*/
 }
 
 
 #interView{
     width: 100%;
     height: 455px;
-    /*background-color: gold;*/
 }
 
 #subTitle{
@@ -180,7 +172,7 @@ h5{
 .imBoxL1{
     position:absolute;
     width: 270px;
-    height: 26%;
+    height: 25%;
     margin: 20px;
     top:0%;
     left: 0%;
@@ -192,7 +184,7 @@ h5{
     width: 130px;
     height: 60%;
     margin: 20px;
-    top:29%;
+    top:27%;
     left: 0%;
     z-index: 1;
     word-break:break-all;
@@ -203,7 +195,7 @@ h5{
     width: 130px;
     height: 60%;
     margin: 20px;
-    top:29%;
+    top:27%;
     left: 18%;
     z-index: 1;
     word-break:break-all;
@@ -243,11 +235,20 @@ h5{
     /*background-color: rgb(199, 16, 144);*/
 }
 #boxH{
+    position: relative;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
     /*background-color: rgb(173, 122, 80);*/
+}
+.imBoxH{
+    position:absolute;
+    width: 190px;
+    height: 45%;
+    top:55%;
+    margin: 14px;
+    z-index: 1;
 }
 
 footer{
